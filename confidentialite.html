@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité · Lumière</title>
+<meta name="description" content="Politique de confidentialité de l'application Lumière (films et séries).">
+<style>
+:root { --bg: #faf7f5; --fg: #1d1418; --muted: #6b5c62; --line: #e8dfe2; --accent: #b3264a; --card: #ffffff; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg: #140d10; --fg: #f3ecef; --muted: #b3a3a9; --line: #2e2227; --accent: #ff6f8f; --card: #1d1418; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.brand { font: 700 22px/1 Georgia, "Times New Roman", serif; letter-spacing: .5px; color: var(--accent); text-decoration: none; }
+nav { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a[aria-current] { color: var(--fg); font-weight: 600; }
+h1 { font: 700 32px/1.2 Georgia, "Times New Roman", serif; margin: 28px 0 4px; text-wrap: balance; }
+.updated { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+h2 { font-size: 18px; margin: 32px 0 8px; }
+p { margin: 0 0 12px; }
+ol { padding-left: 22px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 16px 0; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="confidentialite.html">Lumière</a><nav><a href="confidentialite.html" aria-current="page">Confidentialité</a><a href="suppression-compte.html">Supprimer son compte</a><a href="conditions.html">Conditions</a><a href="mentions-legales.html">Mentions légales</a></nav></header>
+<h1>Politique de confidentialité</h1>
+<p class="updated">Dernière mise à jour : 27/09/2026</p>
+<h2>Qui est responsable de vos données</h2>
+<p>L'éditeur de Lumière : à renseigner par l'éditeur avant la publication de l'application.</p>
+<p>Vous pouvez nous joindre depuis l'application (Réglages, « Signaler un problème »).</p>
+<h2>Les données que nous traitons</h2>
+<p>Votre compte : adresse email, mot de passe (jamais stocké en clair : il est protégé par le service d'authentification), pseudo, nom affiché, photo, bannière et présentation.</p>
+<p>Ce que vous faites dans l'application : posts, critiques, commentaires, discussions, notes, « j'aime », votes, journal (statuts de visionnage, épisodes vus, revoyures), listes, favoris, abonnements, signets, plateformes de streaming choisies, alertes et suivis de titres ou de personnes.</p>
+<p>Vos messages privés, les signalements que vous faites ou recevez, les blocages, et les sanctions éventuelles.</p>
+<p>Vos participations aux fonctions sociales : avertissements de contenu que vous confirmez sur une fiche, soirées à plusieurs (participants, films proposés et votes), et, si vous ne l'avez pas coupé, ce que vous regardez en ce moment.</p>
+<p>Vos réglages de notifications (types choisis, heures calmes, silence) et, si vous activez les notifications push, l'identifiant d'envoi de votre téléphone.</p>
+<p>Des données techniques nécessaires au fonctionnement : jeton de session, réglages de l'appareil (thème, vibrations…).</p>
+<h2>Pourquoi, et sur quelle base</h2>
+<p>Pour fournir le service que vous demandez en créant un compte (base contractuelle) : afficher votre journal, vos notes, vos publications, faire fonctionner les messages, les listes et les recommandations calculées à partir de vos notes.</p>
+<p>Pour protéger la communauté (intérêt légitime) : modération, lutte contre le spam et les abus, journal des actions de modération.</p>
+<h2>Qui peut voir quoi</h2>
+<p>Votre profil, vos posts, critiques, notes, statuts de visionnage, listes publiques, favoris et abonnements sont visibles par les autres membres. Vos listes privées ne sont visibles que de vous. Vos messages privés ne sont visibles que des deux personnes de la conversation. Vos alertes de disponibilité et vos signets sont privés.</p>
+<p>Réglages, « Messages privés » : vous pouvez couper l'indicateur « écrit… » et les accusés de lecture.</p>
+<h2>Les prestataires qui font fonctionner Lumière</h2>
+<p>Supabase héberge la base de données, l'authentification, les fichiers (photos, vidéos) et les fonctions serveur. Expo fournit les mises à jour de l'application. Cloudflare sert les pages de partage de liens et le back-office de l'équipe. Google intervient si vous vous connectez avec votre compte Google.</p>
+<p>Les informations sur les films et séries sont demandées à TMDB par l'intermédiaire de nos serveurs : TMDB ne reçoit ni votre identité ni votre adresse.</p>
+<p>La rubrique Actualités lit directement les flux RSS publics d'AlloCiné, d'Écran Large, de Télérama et des Inrocks : votre appareil contacte ces sites, qui voient donc son adresse IP, comme lorsque vous ouvrez leurs pages. Un article s'ouvre dans votre navigateur, sur le site d'origine.</p>
+<p>La rubrique « Cinémas près de moi » envoie la ville ou le code postal que vous tapez à la Base Adresse Nationale (data.gouv.fr), puis les coordonnées de cette ville au service OpenStreetMap (Overpass) pour lister les salles alentour. Votre position exacte n'est jamais demandée, et vos cinémas favoris restent sur votre appareil.</p>
+<p>Les notifications push (Réglages, « Notifications ») passent par le service d'envoi d'Expo, puis par Firebase Cloud Messaging de Google : ces services reçoivent l'identifiant d'envoi de votre téléphone et le texte de la notification. Le contenu de vos messages privés n'y figure jamais : seul apparaît le nom de l'expéditeur.</p>
+<p>Quand l'application rencontre une erreur, un rapport technique (message d'erreur, version de l'application, type de téléphone) est envoyé à l'équipe pour la corriger ; il est rattaché à votre compte si vous êtes connecté, et effacé au bout de 90 jours.</p>
+<p>Certains de ces prestataires sont situés hors de l'Union européenne (notamment aux États-Unis) ; ils appliquent les garanties prévues par la réglementation (clauses contractuelles types ou cadre de protection des données UE-États-Unis).</p>
+<h2>Combien de temps</h2>
+<p>Vos données sont conservées tant que votre compte existe. Réglages, « Supprimer mon compte » efface immédiatement le compte et tout ce qui en dépend (profil, publications, notes, journal, listes, messages envoyés, abonnements). Seule reste une ligne au journal de modération indiquant que le compte @pseudo a été supprimé, sans contenu ni email.</p>
+<p>L'identifiant d'envoi de votre téléphone est retiré quand vous vous déconnectez ou désactivez les notifications push ; les notifications elles-mêmes sont effacées de nos serveurs au bout de 7 jours.</p>
+<p>Un contenu supprimé par l'équipe pour non-respect des règles est conservé un temps limité dans le journal de modération, pour pouvoir traiter un recours.</p>
+<h2>Vos droits</h2>
+<p>Vous avez le droit d'accéder à vos données, de les corriger (Modifier le profil), de les effacer (Supprimer mon compte), de les récupérer dans un format lisible (Réglages, « Mes données » : exporter mon journal), de vous opposer à un traitement ou d'en demander la limitation.</p>
+<p>Pour exercer un droit que l'application ne couvre pas seule : Vous pouvez nous joindre depuis l'application (Réglages, « Signaler un problème »). Vous pouvez aussi saisir la CNIL (cnil.fr) si vous estimez que vos droits ne sont pas respectés.</p>
+<h2>Sécurité, mineurs et traceurs</h2>
+<p>Les échanges avec nos serveurs sont chiffrés, les mots de passe sont protégés, et les droits d'accès aux données sont vérifiés par la base elle-même. Aucun système n'est infaillible : en cas de problème touchant vos données, nous vous en informerons.</p>
+<p>Lumière est réservée aux personnes de 15 ans et plus.</p>
+<p>Lumière n'utilise aucun traceur publicitaire ni outil de mesure d'audience. Elle ne conserve sur votre appareil que ce qui est nécessaire à son fonctionnement (session, réglages, cache).</p>
+<h2>Modifications</h2>
+<p>Quand cette politique change sur le fond, l'application vous demande de la lire et de l'accepter de nouveau.</p>
+<footer>Lumière, l'application pour suivre, noter et partager films et séries. Textes identiques à ceux de l'application (version du 27/09/2026).</footer>
+</div>
+</body>
+</html>
